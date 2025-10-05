@@ -1,0 +1,25 @@
+name: llm_book
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python=3.11
+  - gradio
+  - langchain
+  - langchain-core
+  - langchain-community
+  - langchain-chroma
+  - ipykernel
+  - pip
+  - pandas
+  - transformers
+  - python-dotenv
+  - pip:
+      - kagglehub
+      - chromadb
+      - openai
+      - tiktoken
+      - seaborn
+      - matplotlib
+      - scikit-learn
